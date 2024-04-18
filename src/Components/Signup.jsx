@@ -6,7 +6,7 @@ const Signup = () => {
         <div className="bg-[url('../public/SignUp-bg.png')] min-h-screen w-full bg-cover bg-center flex flex-col-reverse justify-center md:flex lg:flex-row lg:justify-between">
             
             <div className="md:m-auto md:p-10  flex flex-col justify-center  gap-y-3 p-12" >
-                <p className="sm:text-3xl lg:text-6xl md:text-5xl text-center lg:text-left font-bold text-white">Lorem <span className="sm:text-3xl lg:text-6xl md:text-5xl font-bold text-[#74EEDF]">Ipsum</span></p>
+                <p className="sm:text-4xl lg:text-6xl md:text-5xl text-center lg:text-left font-bold text-white">Lorem <span className="sm:text-4xl lg:text-6xl md:text-5xl font-bold text-[#74EEDF]">Ipsum</span></p>
                 <p className="text-md text-center lg:text-left max-w-xl text-white px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque, soluta placeat eum suscipit beatae? Atque dolorum </p>
             </div>
 
