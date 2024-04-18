@@ -17,7 +17,7 @@ const Signup = () => {
                         <input placeholder="password" className="align-middle text-center text-black py-3.5 rounded-md md:w-96 w-64" type="text" name="username" id="" />
                     </form>
 
-                    <a className="text-lg md:text-lg rounded-lg border-[#74EEDF] text-white border-[1.5px] hover:bg-[#74EEDF] hover:text-black px-12 py-2.5 whitespace-nowrap" href="">Sign up</a>
+                    <a className="text-lg md:text-lg rounded-lg border-[#74EEDF] text-white border-[1.5px] hover:bg-[#74EEDF] hover:text-black px-12 py-2.5 whitespace-nowrap" href="">Sign ups</a>
                 </div>
 
                 <div className="flex justify-center mt-8 py-8">
