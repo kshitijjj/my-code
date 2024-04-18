@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate,Link } from 'react-router-dom';
 
 const Signup = () => {
+    const [name,setName]=useState("");
+
     return (
         <div className="bg-[url('../public/SignUp-bg.png')] min-h-screen w-full bg-cover bg-center flex flex-col-reverse justify-center md:flex lg:flex-row lg:justify-between">
             
@@ -17,12 +19,12 @@ const Signup = () => {
                         <input placeholder="password" className="align-middle text-center text-black py-3.5 rounded-md md:w-96 w-64" type="text" name="username" id="" />
                     </form>
 
-                    <a className="text-lg md:text-lg rounded-lg border-[#74EEDF] text-white border-[1.5px] hover:bg-[#74EEDF] hover:text-black px-12 py-2.5 whitespace-nowrap" href="">Sign up</a>
+                    <Link className="text-lg md:text-lg rounded-lg border-[#74EEDF] text-white border-[1.5px] hover:bg-[#74EEDF] hover:text-black px-12 py-2.5 whitespace-nowrap" to="/signup">Sign up</Link>
                 </div>
 
                 <div className="flex justify-center mt-8 py-8">
                     <p className="text-white px-3 text-lg whitespace-nowrap">Already have an account ?</p>
-                    <a className="text-[#74EEDF] text-lg" href="">Login</a>
+                    <Link className="text-[#74EEDF] text-lg" to="/login">Login</Link>
                 </div>
             </div>
         </div>
