@@ -12,7 +12,7 @@ const Signup = () => {
                 <p className="text-md text-center lg:text-left max-w-xl text-white px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque, soluta placeat eum suscipit beatae? Atque dolorum </p>
             </div>
 
-            <div className="bg-black backdrop-blur-2xl lg:p-40  max-h-screen sm:w-full lg:w-1/2">
+            <div className="bg-black bg-opacity-25 backdrop-blur-2xl lg:p-40  max-h-screen sm:w-full lg:w-1/2">
                 <div className="flex flex-col justify-center items-center  gap-y-16">
                     <form className="flex flex-col gap-y-12 " action="" method="post">
                         <input placeholder="username" className="align-middle text-center text-black py-3.5 rounded-md md:w-96 w-64"  type="text" name="username" id="" />

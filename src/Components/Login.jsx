@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <div className="bg-[url('../public/SignUp-bg.png')] min-h-screen w-full bg-cover bg-center flex flex-col justify-center md:flex lg:flex-row lg:justify-between">
             
-            <div className=" bg-black backdrop-blur-2xl md:p-40 max-h-screen sm:w-full lg:w-1/2">
+            <div className=" bg-black bg-opacity-25 md:p-40 max-h-screen sm:w-full lg:w-1/2">
                 <div className="flex flex-col justify-center items-center  gap-y-16">
                     <form className="flex flex-col gap-y-12 " action="" method="post">
                         <input placeholder="username" className="align-middle text-center text-black py-3.5 rounded-md md:w-96 w-64"  type="text" name="username" id="" />
