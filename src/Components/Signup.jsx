@@ -36,8 +36,8 @@ const Signup = () => {
             <div>
             <div className="flex flex-col text-center justify-center px-[4rem] py-[3rem] gap-10">
                 <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your name"/>
-                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your name"/>
-                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your name"/>
+                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your email"/>
+                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your password"/>
             </div>
 
             <div className="flex justify-center">
