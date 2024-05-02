@@ -4,6 +4,8 @@ import Signup from './Components/Signup';
 import Login from './Components/Login';
 import Home from './Components/Home';
 import Home2 from './Components/Home2';
+import Onboarding from './Components/onboarding';
+import LinkShortner from './Components/linkShortner';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/home" element={<Home2/>}/>
+        <Route path="/onboarding" element={<Onboarding/>}></Route>
+        <Route path="/home/slinkify" element={<LinkShortner/>}></Route>
       </Routes>
      </Router>
     </>

@@ -2,15 +2,29 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between bg-black w-full p-7">
-            <p className="text-xl text-white md:text-4xl font-bold md:ml-9">Lorem</p>
+        <>
+        <div className="flex justify-between items-center w-full px-[22px] py-[16px] md:px-[4rem] md:py-[2rem] ">
+            <div className="flex items-center gap-2">
+                <img src="../Logo.png" alt="" width={"24.32px"} height={"24.32px"}/>
+                <p className="font-poppins font-extrabold text-lg md:text-2xl">Lorem</p>
+            </div>
 
-            <ul className="hidden md:flex mt-2">
-                <a className="px-10 text-white text-lg cursor-pointer">Home</a>
-                <a className="px-10 text-white text-lg cursor-pointer">About</a>
-                <a className="px-10 text-white text-lg cursor-pointer">Contact</a>
-            </ul>
-        </nav>
+            <div className="hidden md:flex md:items-center md:gap-x-16 ">
+                <a className="font-poppins font-medium " href="">Home</a>
+                <a className="font-poppins font-medium " href="">About</a>
+                <a className="font-poppins font-medium " href="">Contact</a>
+            </div>
+
+            <div className="flex items-center gap-4 md:hidden">
+                <div>
+                    <img src="../profile.png" alt="" width={"24.32px"} height={"24.32px"}/>
+                </div>
+                <div>
+                    <img src="../menu.png" alt="" width={"20.32px"} height={"20.32px"}/>
+                </div>
+            </div>
+        </div>
+        </>
     );
 }
 
