@@ -36,7 +36,7 @@ const Signup = () => {
 
         
         <div className="md:flex-row flex flex-col-reverse">
-            <div className="bg-[#2F88FF] mt-[4rem] pb-[6rem] md:pt-[2rem] md:h-screen">
+            <div className="bg-[#2F88FF] mt-[4rem] pb-[6rem] md:pt-[2rem] md:mt-[0rem] md:h-screen">
                 
                 <div className="hidden md:flex md:items-center md:gap-2 md:pt-[1px] md:pl-[24px]">
                 <img src="../Logo.png" alt="" width={"24.32px"} height={"24.32px"}/>
