@@ -56,7 +56,7 @@ const Signup = () => {
                         </div>
 
                         <div className="pt-[32px]">
-                            <p className="text-xl">Already have an account ?&nbsp;<span className="text-[#2F88FF] font-bold">Login</span></p>
+                            <p className="text-xl text-nowrap">Already have an account ?&nbsp;<span className="text-[#2F88FF] text-nowrap font-bold">Login</span></p>
                         </div>
                     </div>
                 </div>
