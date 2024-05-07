@@ -29,30 +29,36 @@ const Signup = () => {
     } */
     return (
         <>
-        <Navbar/>
+        <div className="flex items-center gap-2 pt-[18px] pl-[24px] ">
+                <img src="../Logo.png" alt="" width={"24.32px"} height={"24.32px"}/>
+                <p className="font-poppins font-extrabold text-lg md:text-2xl">Lorem</p>
+        </div>
+        <div className="flex flex-col-reverse">
+            <div className="bg-[#2F88FF] mt-[4rem] pb-[6rem]">
+                <div>
 
-        <div className="flex flex-col">
+                </div>
+                <div className="flex flex-col justify-center text-center pt-[2.5rem] px-[2rem]">
+                    <p className="text-[2.1rem] font-bold  text-white ">Create your account</p>
+                    <p className="text-lg text-white pt-[12px]">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic  </p>
+                </div>
+            </div>
 
             <div>
-            <div className="flex flex-col text-center justify-center px-[4rem] py-[3rem] gap-10">
-                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your name"/>
-                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your email"/>
-                <input className="text-[#000000] text-opacity-25 px-[1rem] py-[1rem] border border-[#000000] border-opacity-15 rounded-lg" type="text" name="name" placeholder="Enter your password"/>
-            </div>
+                <div className="px-[2.5rem] pt-[4rem]">
+                    <div className="flex flex-col justify-center text-center gap-6 px-[22px] pt-[16px]"> 
+                        <input className="border py-[1rem] pl-4 rounded-lg" type="text" placeholder="Enter your name" />
+                        <input className="border py-[1rem] pl-4 rounded-lg" type="email" name="" id="" placeholder='Enter your email' />
+                        <input className="border py-[1rem] pl-4 rounded-lg" type="password" name="" id="" placeholder="Enter your password"/>
 
-            <div className="flex justify-center">
-                <button className="text-center px-[2.3rem] bg-[#1379F2] py-[1rem] rounded-lg text-white font-bold">Create an account</button>
-            </div>
+                        <div className="pt-[32px]">
+                            <a className="bg-[#2F88FF] text-white font-bold px-[24px] py-[10px] rounded-md" href="">Create an account</a>
+                        </div>
 
-            <div className="place-items-center text-center py-[3rem]">
-                <p className="text-lg text-[#000000] text-opacity-40">Already have an account ? <span className="text-[#1379F2] font-bold">Login</span></p>
-            </div>
-            </div>
-
-            <div className="bg-[#1379F2]">
-                <div className="flex flex-col gap-6 justify-center text-center px-[2.5rem] pt-[2rem] pb-[6rem]">
-                    <p className="font-poppins text-white text-3xl font-bold" >Create Your Account</p>
-                    <p className="font-poppins text-white text-lg text-opacity-85" >Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic  </p>
+                        <div className="pt-[32px]">
+                            <p className="text-xl">Already have an account ?&nbsp;<span className="text-[#2F88FF] font-bold">Login</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
