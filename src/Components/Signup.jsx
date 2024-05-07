@@ -52,7 +52,7 @@ const Signup = () => {
                         <input className="border py-[1rem] pl-4 rounded-lg" type="password" name="" id="" placeholder="Enter your password"/>
 
                         <div className="pt-[32px]">
-                            <a className="bg-[#2F88FF] text-white font-bold px-[24px] py-[10px] rounded-md" href="">Create an account</a>
+                            <a className="bg-[#2F88FF] text-white font-bold px-[28px] py-[16px] rounded-md" href="">Create an account</a>
                         </div>
 
                         <div className="pt-[32px]">
