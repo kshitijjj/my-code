@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
         <Navbar/>
-        <div className="flex flex-col justify-center px-[2.5rem] mt-[2rem] gap-16 text-left">
+        <div className="flex flex-col justify-center px-[3.25rem] gap-16 text-left pb-[6rem]">
         <Card/>
         <Card/>
         </div>

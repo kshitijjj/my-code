@@ -3,7 +3,7 @@ import React from 'react';
 function Card (props){
     return (
        <>
-       <div className="flex flex-col rounded-lg ">
+       <div className="flex flex-col rounded-lg mt-[4rem] ">
             <img src="../1.png" alt="" srcset="" />
             <div className="pt-[0.8rem] px-[1rem]">
                 <p className="text-[#2F88FF] font-bold text-2xl leading-10">Slinkify</p>
@@ -11,7 +11,7 @@ function Card (props){
             </div>
 
             <div className="mt-[2rem] px-[1rem]">
-                <a className="bg-[#2F88FF] pl-[0.5rem] py-[0.8rem] text-left rounded-lg text-white font-bold" href="">Open</a>
+                <a className="bg-[#2F88FF] px-[2.3rem] py-[0.8rem] text-left rounded-lg text-white font-bold" href="">Open</a>
             </div>
        </div>
        </>
