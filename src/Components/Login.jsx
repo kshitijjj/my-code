@@ -35,7 +35,7 @@ const Login = () => {
                 <p className="font-poppins font-extrabold text-lg md:text-2xl">Lorem</p>
         </div>
 
-        <div className="flex flex-col ml-[1.2rem] mt-[1.5rem]" >
+        <div className="flex flex-col ml-[1.2rem] mt-[1rem]" >
             <div>
                 <div className="flex flex-col gap-2 mt-[3.5rem]">
                     <p className="text-4xl font-extrabold leading-7">Welcome to </p>
