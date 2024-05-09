@@ -38,16 +38,17 @@ const Login = () => {
         <div className="flex flex-col ml-[1.2rem] mt-[1.5rem]" >
             <div>
                 <div className="flex flex-col gap-2 mt-[3.5rem]">
-                    <p className="text-4xl font-extrabold max-w-md leading-7">Welcome to <span className="text-[#2F88FF] text-4xl font-extrabold">Lorem Ipsum</span></p>
+                    <p className="text-4xl font-extrabold leading-7">Welcome to </p>
+                    <p className="text-[#2F88FF] text-4xl font-extrabold">Lorem Ipsum</p>
                     <p className="max-w-xs text-[#000000] text-opacity-45">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic</p>
                 </div>
 
                 <div className="flex flex-col gap-8 pr-24 mt-[3rem]">
-                    <input className="border py-[0.8rem] pl-2 rounded-lg" type="text" placeholder='Enter your email' />
-                    <input className="border py-[0.8rem] pl-2 rounded-lg" type="text" name="" id="" placeholder="Enter your password" />
+                    <input className="border py-[1.2rem] pl-2 rounded-lg" type="text" placeholder='Enter your email' />
+                    <input className="border py-[1.2rem] pl-2 rounded-lg" type="text" name="" id="" placeholder="Enter your password" />
 
                     <div className="mt-[2rem]">
-                        <a className="bg-[#2F88FF] text-white font-bold px-14 py-2 rounded-md" href="">Login </a>
+                        <a className="bg-[#2F88FF] text-white  font-bold px-[3rem] py-[1rem] rounded-md" href="">Login </a>
                     </div>
 
                     <div className="mt-[2rem]">
