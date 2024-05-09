@@ -52,7 +52,7 @@ const Login = () => {
                     </div>
 
                     <div className="mt-[2rem]">
-                        <p>Don't have an account?&nbsp;<span className="text-[#2F88FF] font-bold">Sign Up</span></p>
+                        <p className="text-[#000000] text-opacity-45 text-lg">Don't have an account?&nbsp;<span className="text-[#2F88FF] font-bold text-lg">Sign Up</span></p>
                     </div>
                 </div>
             </div>
