@@ -11,7 +11,7 @@ function Card (props){
             </div>
 
             <div className="mt-[2rem]">
-                <a className="bg-[#2F88FF] px-[2.3rem] py-[0.5rem] rounded-lg text-white font-bold" href="">Open</a>
+                <a className="bg-[#2F88FF] px-[2.3rem] py-[0.8rem] rounded-lg text-white font-bold" href="">Open</a>
             </div>
        </div>
        </>
