@@ -39,13 +39,13 @@ const Login = () => {
             <div className="flex flex-col md:flex-row ml-[1.2rem] mt-[1rem] md:ml-[3rem] md:justify-between ">
                 <div className="flex flex-col gap-2 md:gap-6 mt-[3.5rem] md:justify-center md:h-[30rem]" >
                     <div>
-                    <p className="text-4xl md:text-[4rem] md:leading-[5rem] font-extrabold leading-7">Welcome to </p>
-                    <p className="text-[#2F88FF] text-4xl md:text-[4rem] font-extrabold">Lorem Ipsum</p>
+                    <p className="text-4xl md:text-[3.5rem] md:leading-[5rem] font-extrabold leading-7">Welcome to </p>
+                    <p className="text-[#2F88FF] text-4xl md:text-[3.5rem] font-extrabold">Lorem Ipsum</p>
                     </div>
                     <p className="max-w-xs text-[#000000] text-opacity-45 md:max-w-2xl md:text-[1.3rem]">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic  </p>
                 </div>
 
-                <div className="flex flex-col gap-8 pr-16 mt-[3rem] md:justify-center md:h-[35rem] md:items-center md:pr-0 md:mr-[12rem] md:gap-12">
+                <div className="flex flex-col gap-8 pr-16 mt-[3rem] md:justify-center md:h-[35rem] md:items-center md:pr-0 md:mr-[12rem] md:gap-12 md:ml-[3rem]">
                     <input className="border py-[1.2rem] pl-2 rounded-lg md:w-[25.75rem]" type="text" placeholder='Enter your email' />
                     <input className="border py-[1.2rem] pl-2 rounded-lg md:w-[25.75rem]" type="text" name="" id="" placeholder="Enter your password" />
 
