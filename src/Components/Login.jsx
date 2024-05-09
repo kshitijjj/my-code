@@ -43,7 +43,7 @@ const Login = () => {
                     <p className="max-w-xs text-[#000000] text-opacity-45">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic</p>
                 </div>
 
-                <div className="flex flex-col gap-8 pr-24 mt-[3rem]">
+                <div className="flex flex-col gap-8 pr-16 mt-[3rem]">
                     <input className="border py-[1.2rem] pl-2 rounded-lg" type="text" placeholder='Enter your email' />
                     <input className="border py-[1.2rem] pl-2 rounded-lg" type="text" name="" id="" placeholder="Enter your password" />
 
