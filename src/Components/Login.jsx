@@ -35,10 +35,10 @@ const Login = () => {
                 <p className="font-poppins font-extrabold text-lg md:text-2xl">Lorem</p>
         </div>
 
-        <div className="flex flex-col ml-[1.2rem] mt-[3rem]" >
+        <div className="flex flex-col ml-[1.2rem] mt-[1.5rem]" >
             <div>
                 <div className="flex flex-col gap-2 mt-[3.5rem]">
-                    <p className="text-4xl font-extrabold max-w-xs leading-7">Welcome to <span className="text-[#2F88FF] text-4xl font-extrabold">Lorem Ipsum</span></p>
+                    <p className="text-4xl font-extrabold max-w-md leading-7">Welcome to <span className="text-[#2F88FF] text-4xl font-extrabold">Lorem Ipsum</span></p>
                     <p className="max-w-xs text-[#000000] text-opacity-45">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic</p>
                 </div>
 
