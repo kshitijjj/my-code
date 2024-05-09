@@ -10,7 +10,7 @@ function Card (props){
                 <p className="text-md ">Lorem ipsum is a dummy text which i don’t know what to right here so i am writing a random text here bjdcdchdic Lorem ipsum</p>
             </div>
 
-            <div className="mt-[2rem]">
+            <div className="mt-[2rem] px-[1rem]">
                 <a className="bg-[#2F88FF] px-[2.3rem] py-[0.8rem] rounded-lg text-white font-bold" href="">Open</a>
             </div>
        </div>
